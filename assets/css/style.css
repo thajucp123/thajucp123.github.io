@@ -193,6 +193,13 @@ section {
   margin-right: 6px;
 }
 
+@media only screen and (max-width: 470px) {
+  .header .logo img {
+  width:75%;
+    height:75%;
+  }
+  } /*used to reduce logo size in mobile screens */
+
 .header .logo span {
   font-size: 30px;
   font-weight: 700;
@@ -644,18 +651,18 @@ section {
 
 .values .box h3 {
   font-size: 24px;
-  color: #012970;
+  color: #9c7b04;
   font-weight: 700;
   margin-bottom: 18px;
 }
 
 .values .box:hover {
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  box-shadow: 0px 0 30px rgba(255, 238, 2, 0.18);
 }
 
 .values .box:hover img {
   transform: scale(1);
-}
+  }
 
 /*--------------------------------------------------------------
 # Counts
@@ -682,9 +689,9 @@ section {
 
 .counts .count-box span {
   font-size: 36px;
-  display: block;
+  display: inline-block;
   font-weight: 600;
-  color: #0b198f;
+  color: #efc122;
 }
 
 .counts .count-box p {
@@ -699,6 +706,7 @@ section {
 --------------------------------------------------------------*/
 .features .feature-box {
   padding: 24px 20px;
+  padding-bottom: 0;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
   height: 100%;
@@ -706,7 +714,7 @@ section {
 
 .features .feature-box h3 {
   font-size: 18px;
-  color: #012970;
+  color: #f12970;
   font-weight: 700;
   margin: 0;
 }
@@ -779,11 +787,11 @@ section {
 }
 
 .features .feature-icons {
-  margin-top: 120px;
+  margin-top: 30px;
 }
 
-.features .feature-icons h3 {
-  color: #012970;
+.features .feature-icons h2 {
+  color: #f12970;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 20px;
@@ -804,7 +812,7 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
-  color: #012970;
+  color: #9c7b04;
 }
 
 .features .feature-icons .content .icon-box i {
@@ -819,13 +827,14 @@ section {
   color: #848484;
 }
 
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services .service-box {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  height: 100%;
-  padding: 60px 30px;
+  height: 0;
+  padding: 0;
   text-align: center;
   transition: 0.3s;
   border-radius: 5px;
@@ -1567,6 +1576,7 @@ section {
   height: 100%;
   overflow: hidden;
   padding: 30px;
+  padding-top: 0;
   border-radius: 8px;
   position: relative;
   display: flex;
