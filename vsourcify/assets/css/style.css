@@ -193,6 +193,12 @@ section {
   margin-right: 6px;
 }
 
+ .header .logo img:hover {
+  border: 2px solid yellow;
+  border-radius: 10px;
+ }
+
+
 @media only screen and (max-width: 470px) {
   .header .logo img {
   width:75%;
@@ -536,6 +542,11 @@ section {
   text-align: right;
 }
 
+.hero .hero-img img:hover {
+  transform: scale(1.2,1.2);
+}
+
+
 @media (min-width: 1024px) {
   .hero {
     background-attachment: fixed;
@@ -556,6 +567,8 @@ section {
   .hero .hero-img img {
     width: 80%;
   }
+
+  
 }
 
 @media (max-width: 768px) {
@@ -574,6 +587,7 @@ section {
   .hero .hero-img img {
     width: 100%;
   }
+  
 }
 
 /*--------------------------------------------------------------
@@ -615,6 +629,11 @@ section {
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 
+.about .btn-read-more:hover {
+  background: #9c7b04;
+  box-shadow: 0px 5px 30px rgba(249, 247, 135, 0.4);
+}
+
 .about .btn-read-more span {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
@@ -629,7 +648,11 @@ section {
 }
 
 .about .btn-read-more:hover i {
-  transform: translateX(5px);
+  transform: translateX(5px);  
+}
+
+.about img:hover {
+  transform: scale(0.95,0.95);
 }
 
 /*--------------------------------------------------------------
@@ -1560,11 +1583,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid #9c7b04;
 }
 
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4154f1;
+  background-color: #efc122;
 }
 
 /*--------------------------------------------------------------
@@ -1603,7 +1626,7 @@ section {
 
 .recent-blog-posts .post-box .post-title {
   font-size: 24px;
-  color: #012970;
+  color: #9c7b04;
   font-weight: 700;
   margin-bottom: 18px;
   position: relative;
@@ -1616,6 +1639,7 @@ section {
   font-weight: 600;
   line-height: 1;
   transition: 0.3s;
+  color: #efc122;
 }
 
 .recent-blog-posts .post-box .readmore i {
@@ -1625,7 +1649,7 @@ section {
 }
 
 .recent-blog-posts .post-box:hover .post-title {
-  color: #4154f1;
+  color: #efc122;
 }
 
 .recent-blog-posts .post-box:hover .post-img img {
@@ -2347,6 +2371,10 @@ section {
   margin-right: 6px;
 }
 
+.footer .footer-top .footer-info .logo img:hover {
+  transform: scale(1.1,1.1);
+}
+
 .footer .footer-top .footer-info .logo span {
   font-size: 30px;
   font-weight: 700;
@@ -2379,10 +2407,14 @@ section {
 .footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #012970;
+  color: #efc122;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
+}
+
+.footer .footer-top h4:hover {
+  color: #9c7b04;
 }
 
 .footer .footer-top .footer-links {
@@ -2420,7 +2452,7 @@ section {
 }
 
 .footer .footer-top .footer-links ul a:hover {
-  color: #4154f1;
+  color: #efc122;
 }
 
 .footer .footer-top .footer-contact p {

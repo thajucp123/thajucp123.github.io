@@ -1,0 +1,2 @@
+primary - #efc122
+secondary - #9c7b04 
