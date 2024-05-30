@@ -717,8 +717,8 @@
       <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
           <header class="section-header">
-            <h2>Contact</h2>
-            <p>Contact Us</p>
+            <h2 style="color: #9c7b04;">Contact</h2>
+            <p style="color: #efc122;">Contact Us</p>
           </header>
 
           <div class="row gy-4">
@@ -727,22 +727,22 @@
                 <div class="col-md-6">
                   <div class="info-box">
                     <i class="bi bi-geo-alt"></i>
-                    <h3>Address</h3>
-                    <p>A108 Adam Street,<br />New York, NY 535022</p>
+                    <h3>Head Office</h3>
+                    <p>Address line 1,<br />Address line 2 - 012345</p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="info-box">
                     <i class="bi bi-telephone"></i>
                     <h3>Call Us</h3>
-                    <p>+1 5589 55488 55<br />+1 6678 254445 41</p>
+                    <p>+00 12345 6789<br />+00 12345 6789</p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="info-box">
                     <i class="bi bi-envelope"></i>
                     <h3>Email Us</h3>
-                    <p>info@example.com<br />contact@example.com</p>
+                    <p>info@vsourcify.com<br /><span style="visibility: hidden;">info@vsourcify.com</span></p>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -777,7 +777,7 @@
                       type="email"
                       class="form-control"
                       name="email"
-                      placeholder="Your Email"
+                      placeholder="Your Email Address"
                       required
                     />
                   </div>
@@ -827,15 +827,14 @@
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-12 text-center">
-              <h4>Our Newsletter</h4>
+              <h4 style="color: #efc122;">Our Newsletter</h4>
               <p>
-                Tamen quem nulla quae legam multos aute sint culpa legam noster
-                magna
+                Subscribe to our email newsletter for latest market insights and updates.
               </p>
             </div>
             <div class="col-lg-6">
-              <form action="" method="post">
-                <input type="email" name="email" /><input
+              <form>
+                <input type="email" name="email" placeholder="Your email here.."/><input
                   type="submit"
                   value="Subscribe"
                 />
@@ -923,11 +922,11 @@
             >
               <h4>Contact Us</h4>
               <p>
-                A108 Adam Street <br />
-                New York, NY 535022<br />
-                United States <br /><br />
-                <strong>Phone:</strong> +1 5589 55488 55<br />
-                <strong>Email:</strong> info@example.com<br />
+                Address line 1 <br />
+                Address line 2<br />
+                Address line 3 <br /><br />
+                <strong>Phone:</strong> +00 12345 6789<br />
+                <strong>Email:</strong> info@vsourcify.com<br />
               </p>
             </div>
           </div>
