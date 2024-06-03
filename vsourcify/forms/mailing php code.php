@@ -1,3 +1,4 @@
+<!-- # This form will only work if webmail is set up in the hosting server # -->
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = $_POST['name'];
